@@ -1,0 +1,94 @@
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────── Crew Completion ───────────────────────────────╮
+│                                                                              │
+│  Crew Execution Completed                                                    │
+│  Name: crew                                                                  │
+│  ID: 053dccb3-16ba-4631-a6ad-3ec3c4d0a1c0                                    │
+│  Final Output: {"action": "QUARANTINE", "explanation": "Block delivery       │
+│  immediately. Move to quarantine folder. Alert SOC team.", "risk_score":     │
+│  0.9727, "sender": "unknown", "past_incidents": [{"risk_score": 0.9727,      │
+│  "action": "QUARANTINE", "timestamp": "2026-04-21T01:12:37.059498+00:00"},   │
+│  {"risk_score": 0.2149, "action": "ALLOW", "timestamp":                      │
+│  "2026-04-21T01:11:37.792729+00:00"}, {"risk_score": 0.9727, "action":       │
+│  "QUARANTINE", "timestamp": "2026-04-21T01:10:54.337879+00:00"},             │
+│  {"risk_score": 0.9727, "action": "QUARANTINE", "timestamp":                 │
+│  "2026-04-21T01:10:54.323296+00:00"}, {"risk_score": 0.9727, "action":       │
+│  "QUARANTINE", "timestamp": "2026-04-21T01:10:51.894561+00:00"}],            │
+│  "repeat_offender": true, "memory_summary": {"unknown": "5 prior. REPEAT     │
+│  OFFENDER."}}                                                                │
+│                                                                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+
+╭────────────────────────────── Execution Traces ──────────────────────────────╮
+│                                                                              │
+│  🔍 Detailed execution traces are available!                                 │
+│                                                                              │
+│  View insights including:                                                    │
+│    • Agent decision-making process                                           │
+│    • Task execution flow and timing                                          │
+│    • Tool usage details                                                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Would you like to view your execution traces? [y/N] (20s timeout): 
+
+╭────────────────────────── Tracing Preference Saved ──────────────────────────╮
+│                                                                              │
+│  Info: Tracing has been disabled.                                            │
+│                                                                              │
+│  Your preference has been saved. Future Crew/Flow executions will not        │
+│  collect traces.                                                             │
+│                                                                              │
+│  To enable tracing later, do any one of these:                               │
+│  • Set tracing=True in your Crew/Flow code                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file               │
+│  • Run: crewai traces enable                                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
