@@ -1,1 +1,16 @@
-
+The AI Agent "The Hunter" is an automated email phishing defense system that utilizes a multi-agent AI pipeline to mimic a human Security Operations Center (SOC). 
+It triages, classifies, and verdicts incoming emails in real time using an ensemble of deep learning and semantic reasoning.
+The Core Architecture:
+The system is built on CrewAI and utilizes a three-agent sequential pipeline:
+Agent 1: Email Ingest Specialist: Parses raw text and extracts five key phishing signal features (e.g., URL count, urgency keywords).
+Agent 2: Phishing Risk Analyst: Runs a dual-model ensemble to score the email; it invokes deep regex analysis for ambiguous scores (0.35–0.75).
+Agent 3: SOC Orchestrator: Consults a persistent SQLite Threat Memory to identify repeat offenders and applies a four-tier defense policy (Allow, Log, Quarantine, Block).
+The Deep Learning Ensemble
+The classification backbone combines two models weighted to provide a final risk score:
+BiLSTM (65% weight): A two-layer stacked neural network for sequential text classification.
+Logistic Regression (35% weight): A feature-driven model targeting static counts and trained with SMOTE oversampling.
+Backbone LLM: Agent reasoning is powered by Meta LLaMA 3.1 70B served via the Groq inference API.
+Project Implementation
+Dataset: Trained on the Alam Dataset (28,747 labeled emails) from Kaggle.
+Interface: Features a Gradio web dashboard where users can submit emails and view full SOC-grade threat verdicts and reasoning traces.
+Performance: Validated through a 4-email test suite covering clear phishing, legitimate mail, borderline ambiguity, and repeat senders.
