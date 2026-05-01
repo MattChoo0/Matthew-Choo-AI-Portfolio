@@ -1,3 +1,8 @@
 In LO8 we have to implement and train a diffusion model capable of generating realistic images from scratch.
 A model called Diffusion models represent  one of the most exciting recent advancements in AI-generated content, powering systems like DALL-E, Stable Diffusion, and Midjourney. 
 This lab will be hands-on experience with the mathematics, architecture, and training process behind these powerful generative models.
+Have to deliver a completed Jupyter notebook (with executed code cells) and a separate analysis report following specific naming conventions (e.g., MD_Notebook_Your_Name_ITAI.ipynb).
+The time comitting to this is Estimated at 7–12 hours, covering setup, training, and report preparation.
+The requirement is using the Google Colab (with GPU) and Python libraries such as PyTorch and torchvision.
+Have to complete code sections across four main areas which are choosing between MNIST (basic), Fashion-MNIST (intermediate), or CIFAR-10 (advanced; worth 5% extra credit), building a U-Net with GELUConvBlocks, UpBlocks, and skip connections, including time and class conditioning, coding both the forward process (adding noise) and the reverse process (denoising) and executing the training loop and visualize the results.
+The report has technical questions that are divided into five categories which are explaining forward/reverse diffusion and the denoising process, discussing the U-Net design and skip connections, interpreting loss values and the necessity of time embeddings, analyzing image quality scores (optional bonus for implementation) and discussing real-world uses and model limitations.
